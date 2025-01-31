@@ -1,0 +1,3 @@
+# Julia Function Edge Case Bug
+
+This repository demonstrates a common issue in Julia programming: unexpected behavior due to edge cases not being handled appropriately within a function.  The `my_function` in `bug.jl` does not correctly process inputs of zero, even though the code compiles without error.  The corrected version in `bugSolution.jl` demonstrates a more robust way to handle this situation.
